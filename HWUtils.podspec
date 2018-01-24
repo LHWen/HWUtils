@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
   s.license      = 'MIT'
   s.author       = {'LHWen' => '1109070804@qq.com'}
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '7.0'
   s.source       = {:git => 'https://github.com/LHWen/HWUtils.git', :tag => s.version }
   s.source_files = 'HWUtils/**/*.{h,m}'
   s.requires_arc = true
