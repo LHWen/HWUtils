@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611707D02018103200E35C2E /* CreateViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 611707CF2018103200E35C2E /* CreateViewFactory.m */; };
 		61DAC7E420173024000FAF73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DAC7E320173024000FAF73 /* AppDelegate.m */; };
 		61DAC7E720173024000FAF73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DAC7E620173024000FAF73 /* ViewController.m */; };
 		61DAC7EA20173024000FAF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DAC7E820173024000FAF73 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		61DAC7EF20173024000FAF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DAC7ED20173024000FAF73 /* LaunchScreen.storyboard */; };
 		61DAC7F220173024000FAF73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DAC7F120173024000FAF73 /* main.m */; };
 		61DAC7FC20173024000FAF73 /* HWUtilsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DAC7FB20173024000FAF73 /* HWUtilsDemoUITests.m */; };
-		61DAC80920173066000FAF73 /* CreateViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DAC80820173066000FAF73 /* CreateViewFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		611707CE2018103200E35C2E /* CreateViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewFactory.h; sourceTree = "<group>"; };
+		611707CF2018103200E35C2E /* CreateViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewFactory.m; sourceTree = "<group>"; };
 		61DAC7DF20173024000FAF73 /* HWUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DAC7E220173024000FAF73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61DAC7E320173024000FAF73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		61DAC7F720173024000FAF73 /* HWUtilsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWUtilsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DAC7FB20173024000FAF73 /* HWUtilsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWUtilsDemoUITests.m; sourceTree = "<group>"; };
 		61DAC7FD20173024000FAF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61DAC80720173066000FAF73 /* CreateViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewFactory.h; sourceTree = "<group>"; };
-		61DAC80820173066000FAF73 /* CreateViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		611707CD2018103200E35C2E /* HWUtils */ = {
+			isa = PBXGroup;
+			children = (
+				611707CE2018103200E35C2E /* CreateViewFactory.h */,
+				611707CF2018103200E35C2E /* CreateViewFactory.m */,
+			);
+			path = HWUtils;
+			sourceTree = SOURCE_ROOT;
+		};
 		61DAC7D620173024000FAF73 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +93,7 @@
 		61DAC7E120173024000FAF73 /* HWUtilsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				61DAC80620173066000FAF73 /* HWUtils */,
+				611707CD2018103200E35C2E /* HWUtils */,
 				61DAC7E220173024000FAF73 /* AppDelegate.h */,
 				61DAC7E320173024000FAF73 /* AppDelegate.m */,
 				61DAC7E520173024000FAF73 /* ViewController.h */,
@@ -105,15 +114,6 @@
 				61DAC7FD20173024000FAF73 /* Info.plist */,
 			);
 			path = HWUtilsDemoUITests;
-			sourceTree = "<group>";
-		};
-		61DAC80620173066000FAF73 /* HWUtils */ = {
-			isa = PBXGroup;
-			children = (
-				61DAC80720173066000FAF73 /* CreateViewFactory.h */,
-				61DAC80820173066000FAF73 /* CreateViewFactory.m */,
-			);
-			path = HWUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61DAC7E720173024000FAF73 /* ViewController.m in Sources */,
-				61DAC80920173066000FAF73 /* CreateViewFactory.m in Sources */,
+				611707D02018103200E35C2E /* CreateViewFactory.m in Sources */,
 				61DAC7F220173024000FAF73 /* main.m in Sources */,
 				61DAC7E420173024000FAF73 /* AppDelegate.m in Sources */,
 			);
